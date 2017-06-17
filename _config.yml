@@ -25,10 +25,11 @@ twitter_username: https://twitter.com/faVbrRYaDPWuvwK
 github_username:  info@frankmarkus.de
 
 # Build settings
-markdown: kramdown
+markdown: Pandoc
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-pandoc
 exclude:
   - Gemfile
   - Gemfile.lock
